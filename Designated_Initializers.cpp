@@ -77,3 +77,19 @@ so it’s a natural step to enable it in all compilers.
 //    Print({ .name_ = "car", .price_{2000.0} });
 //    Print(p);
 //}
+
+// Bonus :
+// You can use auto for static variables:
+
+//class Type {
+//    static inline auto theMeaningOfLife = 42; // int deduced
+//};
+
+//However, you cannot use it as a class non - static member :
+// it cannot be used to deduce non-static data members of a class or struct 
+// because these members are not variables initialized at compile time.
+// 
+//    class Type {
+//    auto myField{ 0 };   // error
+//    auto param{ 10.5f }; // error  
+//};

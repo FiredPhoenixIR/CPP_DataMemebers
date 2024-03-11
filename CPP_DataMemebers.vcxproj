@@ -140,6 +140,7 @@
     <ClCompile Include="constructors_test.cpp" />
     <ClCompile Include="constructors_copy_initialize.cpp" />
     <ClCompile Include="CountedTypeMain.cpp" />
+    <ClCompile Include="CTAD.cpp" />
     <ClCompile Include="Designated_Initializers.cpp" />
     <ClCompile Include="Inline_Var.cpp" />
   </ItemGroup>
